@@ -1,0 +1,65 @@
+.purchases-container {
+    padding: 0 30px;
+}
+
+.purchases-title {
+    text-align: start;
+    margin-bottom: 40px;
+}
+
+.purchase-card {
+    width: 90%;
+
+    color: rgba(255, 255, 255, 0.70);
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+}
+
+.purchase-data {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+    padding: 10px 30px;
+    text-align: start;
+}
+
+.purchases-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.purchase-list {
+    margin: 20px 30px;
+}
+
+.purchase-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.purchase-info-title:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.purchase-info-right {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.purchase-quantity {
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    border-radius: 16px;
+    padding: 3px 20px;
+}
+
+.purchase-price {
+    width: 25%;
+    text-align: start;
+}
