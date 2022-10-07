@@ -1,5 +1,6 @@
 .purchases-container {
     padding: 0 30px;
+    margin-bottom: 30px;
 }
 
 .purchases-title {
@@ -62,4 +63,29 @@
 .purchase-price {
     width: 25%;
     text-align: start;
+}
+
+@media screen and (max-width: 480px) {
+    .purchase-info-title {
+        text-align: start;
+        font-size: 14px;
+        width: 50%;
+    }
+
+    .purchase-info-right {
+        width: 40%;
+    }
+    
+    .purchase-list {
+        margin: 20px 10px;
+    }
+
+    .purchase-quantity {
+        display: none;
+    }
+    
+    .purchase-price {
+        width: auto;
+        font-size: 12px;
+    }
 }

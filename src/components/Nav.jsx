@@ -18,6 +18,7 @@ const Nav = () => {
                 <nav>
                     <div className="nav-left-container">
                         <div className="nav-title-container">
+                            <p className='nav-title-responsive' onClick={() => navigate('/')}>F</p>
                             <p className='nav-title' onClick={() => navigate('/')}>Fabru's Store</p>
                         </div>
                     </div>

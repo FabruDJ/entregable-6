@@ -28,6 +28,21 @@ nav {
     transition: color .5s;
 }
 
+.nav-title-responsive {
+    display: none;
+    margin-left: 50px;
+    margin-right: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #F2F2F2;
+    transition: color .5s;
+}
+
+.nav-title-responsive:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
 .nav-title:hover {
     cursor: pointer;
     color: var(--primary-color);
@@ -49,4 +64,15 @@ nav {
 .nav-right-btns:hover {
     cursor: pointer;
     color: var(--secondary-color);
+}
+
+
+@media screen and (max-width: 480px) {
+    .nav-title {
+        display: none;
+    }
+
+    .nav-title-responsive {
+        display: block;
+    }
 }

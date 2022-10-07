@@ -205,3 +205,23 @@
     border: none;
     transform: scale(1.1);
 }
+
+
+@media screen and (max-width: 480px) {
+    .home-aside {
+        display: none;
+    }
+
+    .home-products-list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .home-input {
+        width: 60%;
+    }
+
+    .home-btn {
+        width: 45px;
+    }
+}
