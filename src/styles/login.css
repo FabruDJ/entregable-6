@@ -104,7 +104,6 @@ form label {
 
     background: rgba(255, 255, 255, 0.09);
     border-radius: 16px;
-    -webkit-backdrop-filter: blur(3.5px);
     border: 1px solid rgba(255, 255, 255, 0.29);
 
     display: flex;
